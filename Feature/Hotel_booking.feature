@@ -1,4 +1,4 @@
-#Author: pravin singh
+#Author: Mythreya
 @HotelBooking
 Feature: HotelBooking
 
@@ -31,7 +31,7 @@ Scenario: Failure in hotel Booking on leaving the last Name blank
 Given User is on hotel booking page
 When user leaves last Name blank and clicks the button
 Then display alert msg
-
+@Mythreya
 Scenario: Failure in hotel Booking on incorrect email format 
 Given User is on hotel booking page
 When user enters all data
